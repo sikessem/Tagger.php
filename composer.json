@@ -1,0 +1,40 @@
+{
+    "name": "sikessem/tagger",
+    "description": "An utility for versionning PHP mixed data types",
+    "license": "Apache-2.0",
+    "keywords": [
+        "tagger",
+        "tag",
+        "versionning",
+        "version",
+        "sikessem"
+    ],
+    "authors": [
+        {
+            "homepage": "https://sikessem.com",
+            "name": "SIGUI Kessé Emmanuel",
+            "email": "devops@sikessem.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/SIKessEm/Tagger.php",
+        "issues": "https://github.com/SIKessEm/Tagger.php/issues"
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SIKessEm\\": "src/main/"
+        }
+    },
+    "homepage": "https://github.com/SIKessEm/Tagger.php#readme",
+    "config": {
+        "vendor-dir": "pkg",
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
